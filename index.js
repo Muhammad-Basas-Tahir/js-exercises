@@ -290,16 +290,35 @@
 // console.log(book2.getSummary());
 
 
+// const jsonData = '{"name": "John Doe", "age": 30, "isStudent": false}';
+// const obj = JSON.parse(jsonData);
+// console.log(obj.age);
 
 
+// const person = {
+//   name: "Jane Smith",
+//   age: 25,
+//   hobbies: ["reading", "hiking"],
+// };
+// const jsonString = JSON.stringify(person); // Convert JS object to JSON string
+// console.log(jsonString);
+// // Output: {"name":"Jane Smith","age":25,"hobbies":["reading","hiking"]}
 
 
-
-
-
-
-
-
+// const studentData = '{"name": "Ali", "marks": [78, 85, 92], "class": "10A"}';
+// const obj = JSON.parse(studentData);
+// let sum = 0;
+// for(key in obj) {
+//   if(key === "marks") {
+//     const arrLen = obj[key].length;
+//     for(mark of obj[key]) {
+//       sum += mark;
+      
+//     }
+//   const avg = sum/arrLen
+//   console.log(avg);
+//   }
+// }
 
 
 
