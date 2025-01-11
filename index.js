@@ -320,10 +320,80 @@
 //   }
 // }
 
+// const studentData = '{"name": "Ali", "age": 18, "class": "10A"}';
+// const obj = JSON.parse(studentData);
+
+// console.log(obj.name,obj.class);
+
+// const student = {
+//   name: "Ali",
+//   age: 18,
+//   class: "10A"
+// };
+// const jsonString = JSON.stringify(student);
+// console.log(jsonString);
+
+// const jsonString = '{"student": {"name": "Ali", "class": "10A", "marks": 85}}'
+// const obj = JSON.parse(jsonString)
+// console.log(obj.student.name);
+// console.log(obj.student.class);
+
+// const jsonString = '{"name": "Ali", "age": 18}'
+// const obj = JSON.parse(jsonString)
+// obj.class = "10A"
+// console.log(obj);
+
+// const jsonString = '{"marks": [78, 85, 92]}'
+// const obj = JSON.parse(jsonString)
+// let sum = 0
+// for(let mark of obj.marks) {
+//   sum += mark
+// }
+// // console.log(sum);
+
+
+// const jsonString = '{"marks": [65, 75, 80, 90]}'
+// const obj = JSON.parse(jsonString)
+// let sum = 0
+// const arrLen = obj.marks.length
+// for(let mark in obj.marks) {
+//   sum += mark
+
+// }
+// const avg = sum/arrLen
+// console.log(avg);
+
+// const jsonString = '{"name": "Ali", "age": 18, "class": "10A"}'
+// const obj = JSON.parse(jsonString)
+// obj.school = "high school"
+// obj.age = 19
+// console.log(obj);
+
+// const student = {
+//   name: "Ali",
+//   age: 19,
+//   class: "10A",
+//   school: "High School"
+// };
+// const jsonString = JSON.stringify(student)
+// console.log(jsonString);
+
+// const jsonString = '{"name": "Ali", "age": 18, "class": "10A"}'
+// const obj = JSON.parse(jsonString)
+// function ageKey() {
+//   if(obj.age) {
+//     console.log('found');
+//   }
+// }
+// ageKey()
 
 
 
-
+// const jsonString = '{"student": {"name": "Ali", "class": "10A", "marks": {"math": 85, "science": 92}}}'
+// const obj = JSON.parse(jsonString)
+// console.log(obj.student.name);
+// console.log(obj.student.marks.math);
+// console.log(obj.student.marks.science);
 
 
 
