@@ -397,12 +397,30 @@
 
 
 
+// const jsonString1 = '{"student": {"name": "Ali", "age": 18, "class": "10A"}}'
+// const jsonString2 = '{"marks": {"math": 85, "science": 92}}'
+
+// const obj1 = JSON.parse(jsonString1)
+// const obj2 = JSON.parse(jsonString2)
+
+// const mergeObj = Object.assign({},obj1,obj2)
+// console.log(mergeObj);
+
+// const mergeObj = {
+//   ...obj1,...obj2
+// }
+// console.log(mergeObj);
+// const jsonString = '{"products": [{"id": 1, "name": "Laptop", "price": 900}, {"id": 2, "name": "Phone", "price": 500}, {"id": 3, "name": "Tablet", "price": 300}]}'
+// const obj = JSON.parse(jsonString)
+// function filterProduct() {
+//   // const filteredProduct = obj.products.filter((product) => {product.price > 500})
+//   // return filteredProduct
+//   return obj.products.filter((product) => product.price > 400)
+// }
+// console.log(JSON.stringify(filterProduct()));
 
 
 
-
-
-
-
-
-
+const jsonString = '{"students": [{"name": "Ali", "marks": [78, 85, 92]}, {"name": "Sara", "marks": [80, 70, 90]}]}'
+const obj = JSON.parse(jsonString)
+function updateMarks()
